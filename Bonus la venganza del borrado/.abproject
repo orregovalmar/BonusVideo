@@ -2,10 +2,10 @@
   "ProjectName": "Bonus la venganza del borrado",
   "ProjectGuid": "244e57ce-b5ec-4dfc-8f64-4edfa60934fe",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.Bonuslavenganzadelborrado",
-  "DisplayName": "Bonus la venganza del borrado",
-  "Author": "",
-  "Description": "Bonus la venganza del borrado",
+  "AppIdentifier": "com.valmar.Bonuslavenganzadelborrado",
+  "DisplayName": "Bonus",
+  "Author": "Valmar SAC",
+  "Description": "Aplicativo para Bonus",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
@@ -14,15 +14,14 @@
   ],
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.7.0",
+  "FrameworkVersion": "4.0.0",
   "AndroidPermissions": [
     "android.permission.INTERNET"
   ],
   "DeviceOrientations": [
-    "Portrait",
-    "Landscape"
+    "Portrait"
   ],
-  "AndroidHardwareAcceleration": "false",
+  "AndroidHardwareAcceleration": "True",
   "iOSStatusBarStyle": "Default",
   "Framework": "Cordova",
   "WP8TileTitle": "",

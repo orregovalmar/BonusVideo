@@ -1,0 +1,31 @@
+<div data-role="view" data-title="Puntos" data-layout="main" data-model="app.puntos" data-show="app.puntos.onShow" data-after-show="app.puntos.afterShow">
+    <div id="puntosModel" class="form-view">
+        <form class="formulario">
+            <ul class="form-content" data-role="listview" data-style="inset">
+                <li>
+                    <label>Documento
+                        <select data-bind="value: puntosModel.fields.pundocumento" data-role="dropdownlist">
+                            <option value="First Option">First Option</option>
+                            <option value="Second Option">Second Option</option>
+                            <option value="Third Option">Third Option</option>
+                        </select>
+                    </label>
+                </li>
+            </ul>
+
+            <div class="button-group">
+                <a data-role="button" data-bind="events: { click: puntosModel.cancel }">Cancel</a>
+                <a class="primary" data-role="button" data-bind="events: { click: puntosModel.submit }">Confirm</a>
+            </div>
+        </form>
+        <!-- START_CUSTOM_CODE_puntosModel -->
+        <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+        <!-- END_CUSTOM_CODE_puntosModel -->
+    </div>
+
+    <!-- START_CUSTOM_CODE_puntos -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+    <!-- END_CUSTOM_CODE_puntos -->
+</div>

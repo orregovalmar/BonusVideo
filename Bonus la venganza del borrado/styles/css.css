@@ -1,0 +1,34 @@
+body {} .km-flat .km-content {
+    background: #fff;
+}
+.col-xs-offset-2 {
+    margin-left: 16.66666667%!important;
+}
+.formulario {
+    float: left;
+}
+.formulario .km-list label,
+.formulario .km-list input,
+.formulario .km-list select {
+    font-size: 22px!important;
+    font-weight: normal;
+}
+.formulario .km-list label {
+    font-style: italic;
+    text-align: center;
+    width: 100%!important;
+    color: #9097b0;
+}
+.formulario .km-list li {
+    border: none!important;
+    background: transparent;
+}
+.formulario .km-list input,
+.formulario .km-list input[type=date],
+.formulario .km-list select {
+    margin-top: 5px!important;
+    text-align: center;
+    width: 100%!important;
+    position: inherit!important;
+    border-bottom: 1px solid #000!important;
+}
