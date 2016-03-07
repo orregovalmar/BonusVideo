@@ -1,13 +1,13 @@
 <div data-role="view" data-title="Registro" data-layout="main" data-model="app.registro" data-show="app.registro.onShow" data-after-show="app.registro.afterShow">
+	
     <div id="registroModel" class="form-view">
         <div class="col-xs-10 col-xs-offset-1">
-                <h1>¡Hola!</h1>
-            </div>
-            <div class="col-xs-10 col-xs-offset-1">
-                <h2>Cuéntanos más</h2>
-            </div>
+            <h1 class="amarillo">¡Hola!</h1>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1">
+            <h2 class="azul">Cuéntanos más</h2>
+        </div>
         <form class="formulario form-group">
-            
             <ul class="form-content" data-role="listview" data-style="inset">
                 <li>
                     <label>Nombres
@@ -121,14 +121,15 @@
                 </li>
             </ul>
             <div class="button-group">
-                <a data-role="button" data-bind="events: { click: registroModel.cancel }">Cancelar</a>
-                <a class="primary" data-role="button" data-bind="events: { click: registroModel.submit }">Guardar</a>
+                <a class="btn borde" data-role="button" data-bind="events: { click: registroModel.cancel }">Cancelar</a>
+                <a class="primary btn btn-default azul borde" data-role="button" data-bind="events: { click: registroModel.submit }">Guardar</a>
             </div>
         </form>
         <!-- START_CUSTOM_CODE_registroModel -->
         <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
         <!-- END_CUSTOM_CODE_registroModel -->
     </div>
+    <div><img src="img/dis_amarillo.png"></div>
     <!-- START_CUSTOM_CODE_registro -->
     <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
     <!-- END_CUSTOM_CODE_registro -->

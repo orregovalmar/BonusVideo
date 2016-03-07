@@ -1,3 +1,41 @@
+div#appDrawer header img {
+    width: 100px;
+    margin: 30px 0;
+}
+#fondoinicio {
+    background: #fff;
+    position: absolute;
+}
+#inicio {
+    font-size: 22px;
+    bottom: 0;
+    background: transparent;
+    width: 100%;
+}
+#inicio .form-group {
+    margin-bottom: 20px;
+}
+#inicio label {
+    font-style: italic;
+    color: #939598;
+}
+#inicio input {
+    font-weight: bold;
+    color: #939598;
+    background: #ebebec;
+    width: 100%;
+    border: 0px;
+}
+.borde {
+    border-radius: 20px;
+    padding: 10px;
+}
+.btn {
+    border-radius: 20px!important;
+    padding: 10px!important;
+    border: 1px solid #212f61;
+    font-size: 22px;
+}
 body {} .km-flat .km-content {
     background: #fff;
 }
@@ -31,4 +69,39 @@ body {} .km-flat .km-content {
     width: 100%!important;
     position: inherit!important;
     border-bottom: 1px solid #000!important;
+}
+h1 {} h1.amarillo {
+    font-size: 290%;
+}
+h2.azul {
+    margin-top: 0;
+}
+.amarillo {
+    color: #f0e42f;
+}
+.azul {
+    color: #212f61;
+}
+.km-flat,
+.km-flat .km-navbar,
+.km-flat .k-toolbar,
+.km-flat .km-detail,
+.km-flat .km-content {
+    color: #9097b0;
+    background-color: #fff;
+}
+#kendoUiMobileApp.km-flat .button-group .km-button.primary {
+    color: #212f61;
+    background: #fff;
+}
+.km-scroll-container {
+    height: 100%;
+    position: absolute;
+}
+.pie {
+    position: absolute;
+    bottom: 0;
+}
+.km-flat .km-listview-link:after {
+    display: none;
 }
