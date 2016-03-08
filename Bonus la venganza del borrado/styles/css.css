@@ -37,7 +37,7 @@ div#appDrawer header img {
     font-size: 22px;
 }
 body {} .km-flat .km-content {
-    background: #fff;
+    background: transparent;
 }
 .col-xs-offset-2 {
     margin-left: 16.66666667%!important;
@@ -70,8 +70,15 @@ body {} .km-flat .km-content {
     position: inherit!important;
     border-bottom: 1px solid #000!important;
 }
-h1 {} h1.amarillo {
-    font-size: 290%;
+.titulo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 40px;
 }
 h2.azul {
     margin-top: 0;
@@ -98,10 +105,40 @@ h2.azul {
     height: 100%;
     position: absolute;
 }
+#appDrawer {} #appDrawer .km-scroll-container {
+    position: static;
+}
+.imagenpagina {
+    margin: 60px 0;
+    font-style: italic;
+    text-align: center;
+}
+.imagenpagina img {
+    width: 120px;
+}
 .pie {
     position: absolute;
     bottom: 0;
 }
+.pie2 {
+    width: 100%;
+}
+
+.pie2 img {
+    width: 100%;
+}
 .km-flat .km-listview-link:after {
     display: none;
+}
+#kendoUiMobileApp #navigation-container .active {
+    background: #212f61;
+}
+.boton {
+    margin-top: 30px;
+}
+.km-flat .km-listview-label input[type=checkbox]{
+    border-radius: 30px;
+    border: 1px solid!important;
+    height: 35px!important;
+    width: 35px!important;
 }

@@ -3,7 +3,7 @@
 app.home = kendo.observable({
     onShow: function() {
         $('#fondoinicio').css({"height" : screen.height+"px"});
-        $('#inicio').css({"height" : (screen.height/3)+"px","margin-top":((screen.height*2)/3)+"px"})
+        $('#inicio').css({"height" : (screen.height/3)+"px","margin-top":((screen.height)/2)+"px"})
     },
     afterShow: function() {}
 });

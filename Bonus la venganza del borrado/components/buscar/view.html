@@ -1,11 +1,15 @@
 <div data-role="view" data-title="Buscar" data-layout="main" data-model="app.buscar" data-show="app.buscar.onShow" data-after-show="app.buscar.afterShow">
     <div id="buscarModel" class="form-view">
+        <div class="imagenpagina">
+            <img src="img/lupa.png">
+            <h2>Registro de clientes</h2>
+        </div>
         <form class="formulario">
             <ul class="form-content" data-role="listview" data-style="inset">
                 <li>
                     <label>Documento
                         <select data-bind="value: buscarModel.fields.busdocumento" data-role="dropdownlist">
-                            <option value="First Option">DNI</option>
+                            <option value="First Option" selected>DNI</option>
                             <option value="Second Option">Carnet de extranjería</option>
                             <option value="Third Option">Libreta militar</option>
                         </select>
@@ -18,8 +22,8 @@
                 </li>
             </ul>
             <div class="button-group">
-                <a class="btn borde" data-role="button" data-bind="events: { click: buscarModel.cancel }">Cancel</a>
-                <a class="primary btn btn-default azul borde" data-role="button" data-bind="events: { click: buscarModel.submit }">Confirm</a>
+                <a class="btn borde" data-role="button" data-bind="events: { click: buscarModel.cancel }">Cancelar</a>
+                <a class="primary btn btn-default azul borde" data-role="button" data-bind="events: { click: buscarModel.submit }">Aceptar</a>
             </div>
         </form>
         <!-- START_CUSTOM_CODE_buscarModel -->
