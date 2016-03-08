@@ -1,5 +1,4 @@
 <div data-role="view" data-title="Registro" data-layout="main" data-model="app.registro" data-show="app.registro.onShow" data-after-show="app.registro.afterShow">
-	
     <div id="registroModel" class="form-view">
         <div class="col-xs-10 col-xs-offset-1 titulo">
             <h1 class="amarillo">¡Hola!</h1>
@@ -92,10 +91,17 @@
                         </select>
                     </label>
                 </li>
-                <li>
+                <!--                 <li>
                     <label>Referencia
                         <input data-bind="value: registroModel.fields.referencia" type="text">
                     </label>
+                </li> -->
+                <li>
+                    <a href="components/localizacion/view.html">
+                        <label>Referencia
+                            <input id="referenciaLocalizacion" type="text">
+                        </label>
+                    </a>
                 </li>
                 <li>
                     <label>Tarjeta nueva
@@ -109,15 +115,21 @@
                 </li>
                 <li>
                     <label>Términos y condiciones
-						<img src="img/pdf.png" class="col-xs-3 col-xs-offset-3">
+                        <img src="img/pdf.png" class="col-xs-3 col-xs-offset-3">
                         <input data-bind="value: registroModel.fields.condiciones" class="caja col-xs-4 col-xs-offset-2" type="checkbox">
-                        
                     </label>
                 </li>
-                <li>
+                <!--                 <li>
                     <label>Firma
                         <input data-bind="value: registroModel.fields.firma" type="text">
                     </label>
+                </li> -->
+                <li>
+                    <a href="components/firma/view.html">
+                        <label>Firma
+                            <input id="inputFirma" type="text">
+                        </label>
+                    </a>
                 </li>
             </ul>
             <div class="button-group boton">
@@ -129,7 +141,8 @@
         <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
         <!-- END_CUSTOM_CODE_registroModel -->
     </div>
-    <div class="pie2"><img src="img/dis_amarillo.png"></div>
+    <div class="pie2"><img src="img/dis_amarillo.png">
+    </div>
     <!-- START_CUSTOM_CODE_registro -->
     <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
     <!-- END_CUSTOM_CODE_registro -->
