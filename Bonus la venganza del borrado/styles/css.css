@@ -47,7 +47,7 @@ body {} .km-flat .km-content {
 }
 .formulario .km-list label,
 .formulario .km-list input,
-.formulario .km-list select {
+.formulario .km-list select, .k-input {
     font-size: 22px!important;
     font-weight: normal;
 }
@@ -123,7 +123,6 @@ h2.azul {
 .pie2 {
     width: 100%;
 }
-
 .pie2 img {
     width: 100%;
 }
@@ -133,12 +132,25 @@ h2.azul {
 #kendoUiMobileApp #navigation-container .active {
     background: #212f61;
 }
+.km-flat .km-rowinsert, .km-flat .km-state-active, .km-flat .km-scroller-pull, .km-flat .km-loader:before, .km-flat .k-slider-selection, .km-flat .km-touch-scrollbar, .km-flat .km-pages .km-current-page, .km-flat .k-slider .k-draghandle, .km-flat .k-slider .k-draghandle:hover, .km-flat .km-tabstrip .km-state-active, .km-flat .km-scroller-refresh.km-load-more, .km-flat .km-popup .k-state-hover, .km-flat .km-popup .k-state-focused, .km-flat .km-popup .k-state-selected, .km-flat .km-actionsheet>li>a:active, .km-flat .km-actionsheet>li>a:hover, .km-flat .km-actionsheet>li>.km-state-active, .km-flat li.km-state-active .km-listview-link, .km-flat li.km-state-active .km-listview-label, .km-flat .km-listview-label input[type=radio]:checked, .km-flat .km-listview-label input[type=checkbox]:checked {
+    background: #212f61;
+}
 .boton {
     margin-top: 30px;
 }
-.km-flat .km-listview-label input[type=checkbox]{
+.km-flat .km-listview-label input[type=checkbox] {
     border-radius: 30px;
     border: 1px solid!important;
     height: 35px!important;
     width: 35px!important;
 }
+ul li label span.k-dropdown {
+    border-radius:0!important;
+    border-bottom-color: rgb(0, 0, 0)!important;
+    border-bottom: 1px solid!important;
+    text-align: center!important;
+    margin-top: 0px!important;
+    width: 100%!important;
+    position: inherit!important;
+}
+
