@@ -46,9 +46,34 @@
                     </label>
                 </li>
                 <li>
-                    <label>Número
-                        <input data-bind="value: registroModel.fields.numero" type="number">
-                    </label>
+                    <a onclick='cordova.plugins.barcodeScanner.scan(
+
+    // success callback function
+    function (result) {
+        // wrapping in a timeout so the dialog doesnt free the app
+        setTimeout(function() {
+            /*alert("We got a barcode\n" +
+                  "Result: " + result.text + "\n" +
+                  "Format: " + result.format + "\n" +
+                  "Cancelled: " + result.cancelled); */
+            $("#numDoc").val(result.text);
+        }, 0);
+    },
+
+    // error callback function
+    function (error) {
+        alert("Scanning failed: " + error);
+    },
+
+    // options object
+    {
+        "preferFrontCamera" : false,
+        "showFlipCameraButton" : true
+    });'>
+                        <label>Número
+                            <input data-bind="value: registroModel.fields.numero" id="numDoc" type="number">
+                        </label>
+                    </a>
                 </li>
                 <li>
                     <label>Género
@@ -104,9 +129,34 @@
                     </a>
                 </li>
                 <li>
-                    <label>Tarjeta nueva
-                        <input data-bind="value: registroModel.fields.tarjeta" type="number">
-                    </label>
+                    <a onclick='cordova.plugins.barcodeScanner.scan(
+
+    // success callback function
+    function (result) {
+        // wrapping in a timeout so the dialog doesnt free the app
+        setTimeout(function() {
+            /*alert("We got a barcode\n" +
+                  "Result: " + result.text + "\n" +
+                  "Format: " + result.format + "\n" +
+                  "Cancelled: " + result.cancelled); */
+            $("#numTar").val(result.text);
+        }, 0);
+    },
+
+    // error callback function
+    function (error) {
+        alert("Scanning failed: " + error);
+    },
+
+    // options object
+    {
+        "preferFrontCamera" : false,
+        "showFlipCameraButton" : true
+    });'>
+                        <label>Tarjeta nueva
+                            <input data-bind="value: registroModel.fields.tarjeta" id="numTar" type="number">
+                        </label>
+                    </a>
                 </li>
                 <li>
                     <label>Recibo de compra
