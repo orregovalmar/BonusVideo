@@ -17,7 +17,10 @@ app.buscar = kendo.observable({
             busnumero: '',
             busdocumento: '',
         },
-        submit: function() {},
+        submit: function() {
+            console.log(buscarModel.fields.busdocumento+"-"+buscarModel.fields.busnumero);
+            
+        },
         cancel: function() {}
     });
 
