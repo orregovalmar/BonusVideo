@@ -56,6 +56,8 @@
     };
 }());
 
+var servidor = "http://54.191.211.214/wsBonus/";
+
 // START_CUSTOM_CODE_kendoUiMobileApp
 // Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes
 

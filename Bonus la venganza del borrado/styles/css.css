@@ -1,6 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+div {
+    font-family: 'Oxygen', sans-serif;
+}
 div#appDrawer header img {
-    width: 100px;
-    margin: 30px 0;
+    width: 180px;
+    margin: 60px 0;
 }
 #fondoinicio {
     background: #fff;
@@ -12,32 +16,22 @@ div#appDrawer header img {
     background: transparent;
     width: 100%;
 }
-#inicio .form-group {
-    margin-bottom: 20px;
-}
-#inicio label {
-    font-style: italic;
-    color: #939598;
-}
-#inicio input {
-    font-weight: bold;
-    color: #939598;
-    background: #ebebec;
-    width: 100%;
-    border: 0px;
-}
-.borde {
-    border-radius: 20px;
-    padding: 10px;
-}
+
 .btn {
     border-radius: 20px!important;
     padding: 10px!important;
     border: 1px solid #212f61;
     font-size: 22px;
 }
-body {} .km-flat .km-content {
-    background: transparent;
+body {
+    color:#727176;
+} 
+
+#kendoUiMobileApp.km-flat .km-drawer .km-content {
+    background-color: inherit;
+}
+.km-flat .km-list>li {
+    background: inherit;
 }
 .col-xs-offset-2 {
     margin-left: 16.66666667%!important;
@@ -47,15 +41,14 @@ body {} .km-flat .km-content {
 }
 .formulario .km-list label,
 .formulario .km-list input,
-.formulario .km-list select, .k-input {
+.formulario .km-list select,
+.k-input {
     font-size: 22px!important;
     font-weight: normal;
 }
 .formulario .km-list label {
-    font-style: italic;
     text-align: center;
     width: 100%!important;
-    color: #9097b0;
 }
 .formulario .km-list li {
     border: none!important;
@@ -68,7 +61,7 @@ body {} .km-flat .km-content {
     text-align: center;
     width: 100%!important;
     position: inherit!important;
-    border-bottom: 1px solid #000!important;
+    border-bottom: 2px solid #0056B3!important;
 }
 .titulo {
     margin-top: 40px;
@@ -89,14 +82,7 @@ h2.azul {
 .azul {
     color: #212f61;
 }
-.km-flat,
-.km-flat .km-navbar,
-.km-flat .k-toolbar,
-.km-flat .km-detail,
-.km-flat .km-content {
-    color: #9097b0;
-    background-color: #fff;
-}
+
 #kendoUiMobileApp.km-flat .button-group .km-button.primary {
     color: #212f61;
     background: #fff;
@@ -129,10 +115,33 @@ h2.azul {
 .km-flat .km-listview-link:after {
     display: none;
 }
-#kendoUiMobileApp #navigation-container .active {
-    background: #212f61;
+a.km-listview-link {
+    font-size: 20px;
 }
-.km-flat .km-rowinsert, .km-flat .km-state-active, .km-flat .km-scroller-pull, .km-flat .km-loader:before, .km-flat .k-slider-selection, .km-flat .km-touch-scrollbar, .km-flat .km-pages .km-current-page, .km-flat .k-slider .k-draghandle, .km-flat .k-slider .k-draghandle:hover, .km-flat .km-tabstrip .km-state-active, .km-flat .km-scroller-refresh.km-load-more, .km-flat .km-popup .k-state-hover, .km-flat .km-popup .k-state-focused, .km-flat .km-popup .k-state-selected, .km-flat .km-actionsheet>li>a:active, .km-flat .km-actionsheet>li>a:hover, .km-flat .km-actionsheet>li>.km-state-active, .km-flat li.km-state-active .km-listview-link, .km-flat li.km-state-active .km-listview-label, .km-flat .km-listview-label input[type=radio]:checked, .km-flat .km-listview-label input[type=checkbox]:checked {
+#kendoUiMobileApp #navigation-container .active {
+    background: inherit;
+}
+.km-flat .km-rowinsert,
+.km-flat .km-state-active,
+.km-flat .km-scroller-pull,
+.km-flat .km-loader:before,
+.km-flat .k-slider-selection,
+.km-flat .km-touch-scrollbar,
+.km-flat .km-pages .km-current-page,
+.km-flat .k-slider .k-draghandle,
+.km-flat .k-slider .k-draghandle:hover,
+.km-flat .km-tabstrip .km-state-active,
+.km-flat .km-scroller-refresh.km-load-more,
+.km-flat .km-popup .k-state-hover,
+.km-flat .km-popup .k-state-focused,
+.km-flat .km-popup .k-state-selected,
+.km-flat .km-actionsheet>li>a:active,
+.km-flat .km-actionsheet>li>a:hover,
+.km-flat .km-actionsheet>li>.km-state-active,
+.km-flat li.km-state-active .km-listview-link,
+.km-flat li.km-state-active .km-listview-label,
+.km-flat .km-listview-label input[type=radio]:checked,
+.km-flat .km-listview-label input[type=checkbox]:checked {
     background: #212f61;
 }
 .boton {
@@ -145,12 +154,40 @@ h2.azul {
     width: 35px!important;
 }
 ul li label span.k-dropdown {
-    border-radius:0!important;
-    border-bottom-color: rgb(0, 0, 0)!important;
-    border-bottom: 1px solid!important;
+    border-radius: 0!important;
+    border-bottom: 2px solid #0056B3!important;
     text-align: center!important;
     margin-top: 0px!important;
     width: 100%!important;
     position: inherit!important;
 }
-
+.km-flat,
+.km-flat .km-navbar,
+.km-flat .k-toolbar,
+.km-flat .km-detail,
+.km-flat #appDrawer .km-content {
+    color: #ffffff!important;
+    background-color: #0056B3;
+}
+.km-navbar .km-button {
+    border: 0;
+    background: inherit;
+    color: #F5CF00;
+    margin: -5px 0 0 0 !important;
+    padding: 0;
+    font-size: 2em;
+}
+.km-flat .km-content {
+    background-color: #fff;
+}
+a:focus,
+a:hover {
+    color: inherit;
+}
+.km-cerrar-sesion:after,
+.km-cerrar-sesion:before {
+    content: "\e0b3";
+}
+.km-list>li {
+    padding: .8em 1.7em;
+}

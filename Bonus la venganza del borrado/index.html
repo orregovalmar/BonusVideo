@@ -56,22 +56,24 @@
         </header>
         <!-- application views will be rendered here -->
     </div>
-    <div id="appDrawer" data-role="drawer">
+    <div id="appDrawer" data-role="drawer" data-swipe-to-open="false">
         <header data-role="header">
             <div data-role="navbar">
                 <img src="img/logo.png">
             </div>
         </header>
         <ul id="navigation-container" data-role="listview">
+            <!--
             <li><a href="components/home/view.html" data-icon="home">Inicio</a>
             </li>
+			-->
             <li><a href="components/buscar/view.html" data-icon="search">Buscar</a>
             </li>
             <li><a href="components/registro/view.html" data-icon="compose">Registro</a>
             </li>
             <li><a href="components/puntos/view.html" data-icon="favorites">Puntos</a>
             </li>
-            <li><a href="components/externo/view.html" data-icon="favorites">Externo</a>
+            <li><a href="components/externo/view.html" data-icon="cerrar-sesion">Cerrar sesión</a>
             </li>
         </ul>
     </div>
