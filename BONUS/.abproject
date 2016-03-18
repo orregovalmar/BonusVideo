@@ -1,8 +1,8 @@
 {
-  "ProjectName": "Bonus la venganza del borrado",
+  "ProjectName": "BONUS",
   "ProjectGuid": "244e57ce-b5ec-4dfc-8f64-4edfa60934fe",
   "projectVersion": 1,
-  "AppIdentifier": "com.valmar.Bonuslavenganzadelborrado",
+  "AppIdentifier": "com.valmar.bonus",
   "DisplayName": "Bonus",
   "Author": "Valmar SAC",
   "Description": "Aplicativo para Bonus",

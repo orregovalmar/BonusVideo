@@ -47,7 +47,7 @@ app.home = kendo.observable({
                     console.log("token variable: " + headers);
                     $('#token').val(headers);
                     if (headers == null) {
-                        alert("No seas palomilla, pon bien el usuario y contraseña.");
+                        alert("Datos errados en usuario o contraseña.");
                     } else {
                         app.mobileApp.navigate('#components/buscar/view.html');
                     }
