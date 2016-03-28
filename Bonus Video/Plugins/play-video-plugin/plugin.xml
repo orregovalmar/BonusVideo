@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="com.valmar.playvideocordova"
+        version="0.7.0">
+
+  <name>PlayVideoCordova</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/playvideocordova.js" target="js/playvideocordova.js"/>
+
+  <js-module src="www/playvideocordova.js" name="playvideocordova">
+    <clobbers target="playvideocordova" />
+  </js-module>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="PlayVideoCordova">
+        <param name="android-package" value="com.valmar.mediaplayer.PlayVideoCordova"/>
+      </feature>
+    </config-file>
+      
+    <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    </config-file>
+
+    <source-file src="src/android/PlayVideoCordova.java" target-dir="src/com/valmar/mediaplayer"/>
+  </platform>
+
+
+</plugin>
