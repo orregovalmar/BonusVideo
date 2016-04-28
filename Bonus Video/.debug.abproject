@@ -1,5 +1,7 @@
 {
   "CorePlugins": [
+    "com.telerik.feedback@2.0.0",
+    "com.telerik.plugin.telerikanalytics@3.4.1",
     "org.apache.cordova.battery-status",
     "org.apache.cordova.camera",
     "org.apache.cordova.console",
@@ -20,5 +22,14 @@
     "org.apache.cordova.statusbar",
     "org.apache.cordova.vibration"
   ],
-  "CordovaPluginVariables": {}
+  "CordovaPluginVariables": {
+    "com.telerik.feedback": {
+      "API_KEY": "lpkn19r7uua26y44",
+      "API_URL": "https://platform.telerik.com/feedback/api/v1",
+      "ENABLE_SHAKE": "True"
+    },
+    "com.telerik.plugin.telerikanalytics": {
+      "PRODUCT_ID": "a164c6b9b97f4c38b1a9024ae7528048"
+    }
+  }
 }

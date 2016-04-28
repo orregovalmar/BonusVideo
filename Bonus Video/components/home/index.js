@@ -23,19 +23,7 @@ app.home = kendo.observable({
 
         },
         sesion: function () {
-            /*VideoPlayer.play(
-                "file:///android_asset/www/video.mp4", {
-                    volume: 0.5,
-                    scalingMode: VideoPlayer.SCALING_MODE.SCALE_TO_FIT_WITH_CROPPING
-                },
-                function () {
-                    console.log("video completed");
-                },
-                function (err) {
-                    console.log(err);
-                }
-            );*/
-            playvideocordova.play("video.mp4",
+            playvideocordova.play("cuponing de ingreso.mp4",
                 function () {
                     console.log("video completed");
                 },
